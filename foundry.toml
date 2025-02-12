@@ -1,0 +1,7 @@
+[profile.default]
+out = "out"
+src = "contracts"
+via_ir = true
+optimizer = true
+optimizer-runs = 200
+libs = ["lib"]
