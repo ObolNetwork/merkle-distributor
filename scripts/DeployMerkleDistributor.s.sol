@@ -13,7 +13,7 @@ contract DeployMerkleDistributor is Script {
             merkleRoot,
             deadline
         );
-        console.log("MerkleDistributorWithDeadline deployed at:", address(merkleDistributor));
+        console.log("MerkleDistributorWithDeadline=", address(merkleDistributor));
 
         vm.stopBroadcast();
     }
