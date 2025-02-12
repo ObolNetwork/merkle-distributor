@@ -1,4 +1,4 @@
-pragma solidity ^0.8.28;
+pragma solidity =0.8.17;
 
 import {Script, console} from "forge-std/Script.sol";
 import {MerkleDistributorWithDeadline} from "../contracts/MerkleDistributorWithDeadline.sol";
